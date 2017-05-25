@@ -30,3 +30,35 @@ https://facebook.github.io/react-native/docs/getting-started.html
 ## Wait for build to generate
 	6.	Xcode Simulator will open and display a basic hello world
 		Edit index.ios.js to see changes.  Cmd R will refresh the page.
+
+
+# DEPLOY REACT NATIVE to iPhone
+
+https://facebook.github.io/react-native/docs/running-on-device.html
+
+# Create Apple Developer account (free version)
+	1.	https://developer.apple.com/
+
+		Connect iPhone to computer
+
+# Open Xcode Project
+	2.	Navigate to YourProject>ios>.xcodeproj
+	3.	Open the Xcode project file in Xcode
+
+# Sign in to your developer account
+	4.	Xcode>Preferences>Accounts>Sign in
+
+# Select your Team for the Project
+	5.	Go to General>Signing dropdown
+	6.	Select your account (your name) under the Team dropdown
+
+# Choose build destination
+	7.	Select your phone from the options list at the top of the Xcode project (below navigate)
+
+# Run build
+	8.	Click the ‘play’ button to build the project as an app on your phone
+		Note: You will need the most updated Xcode build to use a newer iPhone (6s, 7)
+			If incompatible, you will get this error: 
+				Could not locate device support files.
+				This iPhone 6s is running iOS 10.3.1 (14E304), which may not be supported by this 					version of Xcode.
+
