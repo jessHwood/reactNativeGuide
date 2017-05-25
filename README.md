@@ -1,6 +1,4 @@
-# reactNativeGuide
-
-INSTALL REACT NATIVE
+# INSTALL REACT NATIVE
 
 https://facebook.github.io/react-native/docs/getting-started.html
 
@@ -30,6 +28,9 @@ https://facebook.github.io/react-native/docs/getting-started.html
 ## Wait for build to generate
 	6.	Xcode Simulator will open and display a basic hello world
 		Edit index.ios.js to see changes.  Cmd R will refresh the page.
+
+
+
 
 
 # DEPLOY REACT NATIVE to iPhone
